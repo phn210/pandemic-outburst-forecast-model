@@ -52,7 +52,7 @@ with open(file_name, 'a') as output_file:
         try:
             values[0] = values[0].encode('utf-8')
             for i in range(1, len(values)):
-                values[i] = values[i].rstrip()
+                values[i] = values[i].rstrip().replace('.', '')
             writer.writerow(
                 {'Tinh thanh': values[0], 'Ca nhiem': values[1], 'Dang dieu tri': values[2], 'Hoi phuc': values[3],
                  'Tu vong': values[4]})
