@@ -33,7 +33,7 @@ with open("test-sir-data.csv", "r") as f:
         V1.append(float(row[4]))
         V2.append(float(row[5]))
 
-with open("test-sir-output.csv", "w") as f:
+with open("test-sirv-output.csv", "w") as f:
     writer = csv.writer(f)
     fields = ["Date", "S", "I", "R"]
     writer = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')

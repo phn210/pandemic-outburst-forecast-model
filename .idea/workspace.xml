@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sirv_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pandemic-outburst-forecast-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pandemic-outburst-forecast-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-sir-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-sir-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-sir-output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-sir-output.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/traditional_sir.py" beforeDir="false" afterPath="$PROJECT_DIR$/sir_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sirv_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/sirv_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636986032707</updated>
-      <workItem from="1636986045972" duration="7935000" />
+      <workItem from="1636986045972" duration="7999000" />
     </task>
     <servers />
   </component>
