@@ -39,11 +39,12 @@ for i in tables:
     #         except:
     #             print(dict(zip(headers, values)))
 
-    headers = ['Tinh thanh', 'Ca nhiem', 'Dang dieu tri', 'Hoi phuc', 'Tu vong']
+    headers = ['Tinh thanh', 'Ca nhiem', 'Tu vong', 'Ca mac moi']
     with open(file_name, 'a') as output_file:
         writer = csv.writer(output_file)
         writer = csv.DictWriter(output_file, fieldnames=headers, lineterminator='\n')
         writer.writeheader()
+
         for row in rows:
             values = [col.text for col in row]
             try:
@@ -55,8 +56,7 @@ for i in tables:
                 for i in range(1, len(values)):
                     values[i] = values[i].rstrip().replace('.', '')
                 writer.writerow(
-                    {'Tinh thanh': values[0], 'Ca nhiem': values[1], 'Dang dieu tri': values[2], 'Hoi phuc': values[3],
-                     'Tu vong': values[4]})
+                    {'Tinh thanh': values[0], 'Ca nhiem': values[1], 'Tu vong': values[2], 'Ca mac moi': values[3]})
             except:
                 print(dict(zip(headers, values)))
             # print(dict(zip(headers, values)))
