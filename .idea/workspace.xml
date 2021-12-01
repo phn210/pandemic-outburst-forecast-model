@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/regression_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pandemic-outburst-forecast-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pandemic-outburst-forecast-model.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +40,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JupyterTrust" id="0712b645-c235-434d-8f09-afba2425cf5f" />
   <component name="ProjectId" id="20xV4EZStJp2tLRfThBVjKuFLww" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/update_real_time_data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -56,7 +70,48 @@
       <recent name="F:\HUST\Decision Support System\pandemic-outburst-forecast-model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.request_wiki_1">
+  <component name="RunManager" selected="Python.regression_model">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="pandemic-outburst-forecast-model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="regression_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pandemic-outburst-forecast-model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regression_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="request_wiki_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pandemic-outburst-forecast-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,28 +148,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sir_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sir_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pandemic-outburst-forecast-model" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\HUST\Decision Support System\pandemic-outburst-forecast-model\sir_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.regression_model" />
         <item itemvalue="Python.request_wiki_1" />
         <item itemvalue="Python.test_request_wiki" />
         <item itemvalue="Python.sir_model (1)" />
         <item itemvalue="Python.sirv_model" />
-        <item itemvalue="Python.sir_model" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +230,7 @@
       <workItem from="1638028360630" duration="1555000" />
       <workItem from="1638143509334" duration="159000" />
       <workItem from="1638231097993" duration="66000" />
+      <workItem from="1638321662011" duration="4304000" />
     </task>
     <servers />
   </component>
@@ -215,57 +249,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636988515169">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="414" y="235" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1636988515169" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1638231163718">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637282039247" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1638231163718" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1638231163718">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637282039247" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1638231163718" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1638231163718">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637282039247" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1638231163718" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1638231163718">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637282039247" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1638231163718" />
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1637007608573">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.bottom/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637007608573" />
-    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1637007608573">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.center/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637007608573" />
-    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1637007608573">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.left/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637007608573" />
-    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1637007608573">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1877" height="396" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1637007608573" />
-    <state x="461" y="225" key="SettingsEditor" timestamp="1636988527520">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="461" y="225" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1160@0.0.1920.1160" timestamp="1636988527520" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$test_request_wiki.coverage" NAME="test_request_wiki Coverage Results" MODIFIED="1637408572997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/update_real_time_data" />
     <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$sir_model__1_.coverage" NAME="sir_model (1) Coverage Results" MODIFIED="1636994843029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$sirv_model.coverage" NAME="sirv_model Coverage Results" MODIFIED="1636994818884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$traditional_sir.coverage" NAME="traditional_sir Coverage Results" MODIFIED="1636991100183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$test_request_wiki.coverage" NAME="test_request_wiki Coverage Results" MODIFIED="1637408572997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/update_real_time_data" />
     <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$request_wiki_1.coverage" NAME="request_wiki_1 Coverage Results" MODIFIED="1638231103875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/update_real_time_data" />
+    <SUITE FILE_PATH="coverage/pandemic_outburst_forecast_model$traditional_sir.coverage" NAME="traditional_sir Coverage Results" MODIFIED="1636991100183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
