@@ -9,8 +9,6 @@ import ntpath
 import os
 from sklearn.pipeline import make_pipeline
 
-dir_str = "data/VN-covid19.csv"
-
 def predict(input_file_path, x):
     df_orig = pd.read_csv(input_file_path, on_bad_lines='skip')
     df = copy.deepcopy(df_orig)
@@ -82,4 +80,4 @@ def predict(input_file_path, x):
     print(df_output)
 
 
-predict(dir_str, 14)
+predict("data/VN-covid19.csv", 14)
