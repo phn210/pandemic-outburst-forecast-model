@@ -20,9 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/regression_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pandemic-outburst-forecast-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pandemic-outburst-forecast-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +227,7 @@
       <workItem from="1638028360630" duration="1555000" />
       <workItem from="1638143509334" duration="159000" />
       <workItem from="1638231097993" duration="66000" />
-      <workItem from="1638321662011" duration="4304000" />
+      <workItem from="1638321662011" duration="4634000" />
     </task>
     <servers />
   </component>
