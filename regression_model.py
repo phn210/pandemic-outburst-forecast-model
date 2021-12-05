@@ -9,16 +9,18 @@ import ntpath
 import os
 from sklearn.pipeline import make_pipeline
 
-def predict(input_file_path, x):
-    df_orig = pd.read_csv(input_file_path, on_bad_lines='skip')
-    df = copy.deepcopy(df_orig)
-    # print(df)
+# Đầu vào là Pandas dataframe có 2 column là 'ObservationDate' và 'Confirmed'
+def predict(df, x):
+    # df = pd.read_csv(input_file_path, on_bad_lines='skip')
+    # df = copy.deepcopy(df_orig)
+    # print(df['ObservationDate'])
 
     days_since_lst = []
-    length = len(df_orig)
+    length = len(df)
     for i in range(length):
         days_since_lst.append(i)
 
+    date = np.array(df['ObservationDate'])
     X_train = np.array(df["Confirmed"])  # .reshape(-1,1)
     # X is the world cases array
     y_train = np.array(days_since_lst).reshape(-1, 1)
@@ -67,18 +69,19 @@ def predict(input_file_path, x):
     plt.yticks(size=30)
     plt.show()
 
-    head, tail = os.path.split(input_file_path)
-    file_name = "Predict_for_" + tail
-    output_file_path = head + "/" + file_name
+    # head, tail = os.path.split(input_file_path)
+    file_name = "Predict_result"
+    output_file_path = "./data/" + file_name
 
     df_output = pd.DataFrame()
     df_output['predict_confirmed_case'] = linear_pred
     for i in range(x):
         X_train = numpy.append(X_train, 0)
+        date = numpy.append(date, 'Null')
     df_output['confirmed_case'] = X_train
-    # df_output.to_csv(output_file_path)
+    df_output['observation_date'] = date
+    df_output.to_csv(output_file_path)
     print(df_output)
-    return df_output
 
-
-predict("data/VN-covid19.csv", 14)
+df = pd.read_csv("data/VN-covid19.csv", on_bad_lines='skip')
+predict(df, 14)

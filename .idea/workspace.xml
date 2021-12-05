@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <recent name="F:\HUST\Decision Support System\pandemic-outburst-forecast-model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.request_wiki_1129">
+  <component name="RunManager" selected="Python.regression_model">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pandemic-outburst-forecast-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,9 +95,6 @@
       <module name="pandemic-outburst-forecast-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -138,6 +136,9 @@
       <module name="pandemic-outburst-forecast-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/update_real_time_data" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -199,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.request_wiki_1129" />
         <item itemvalue="Python.regression_model" />
+        <item itemvalue="Python.request_wiki_1129" />
         <item itemvalue="Python.request_wiki_1" />
         <item itemvalue="Python.test_request_wiki" />
         <item itemvalue="Python.sir_model (1)" />
@@ -231,6 +232,7 @@
       <workItem from="1638327288843" duration="25000" />
       <workItem from="1638328554491" duration="463000" />
       <workItem from="1638542664226" duration="353000" />
+      <workItem from="1638676193502" duration="1478000" />
     </task>
     <servers />
   </component>
