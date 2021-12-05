@@ -76,8 +76,9 @@ def predict(input_file_path, x):
     for i in range(x):
         X_train = numpy.append(X_train, 0)
     df_output['confirmed_case'] = X_train
-    df_output.to_csv(output_file_path)
+    # df_output.to_csv(output_file_path)
     print(df_output)
+    return df_output
 
 
 predict("data/VN-covid19.csv", 14)

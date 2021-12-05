@@ -21,9 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/VN-covid19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/VN-covid19.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +94,9 @@
       <module name="pandemic-outburst-forecast-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -232,7 +232,8 @@
       <workItem from="1638231097993" duration="66000" />
       <workItem from="1638321662011" duration="4686000" />
       <workItem from="1638327288843" duration="25000" />
-      <workItem from="1638328554491" duration="365000" />
+      <workItem from="1638328554491" duration="463000" />
+      <workItem from="1638542664226" duration="353000" />
     </task>
     <servers />
   </component>
