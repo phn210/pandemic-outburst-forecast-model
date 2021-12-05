@@ -74,13 +74,20 @@ def predict(df, x):
     output_file_path = "./data/" + file_name
 
     df_output = pd.DataFrame()
+
+    for i in range(linear_pred.size):
+        linear_pred[i] = round(linear_pred[i])
     df_output['predict_confirmed_case'] = linear_pred
+
     for i in range(x):
         X_train = numpy.append(X_train, 0)
         date = numpy.append(date, 'Null')
+
     df_output['confirmed_case'] = X_train
     df_output['observation_date'] = date
+
     df_output.to_csv(output_file_path)
+
     print(df_output)
 
 df = pd.read_csv("data/VN-covid19.csv", on_bad_lines='skip')

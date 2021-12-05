@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="" />
+    <list default="true" id="22e76ad0-a1bc-4a8b-ab87-836706cab961" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Predict_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Predict_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/regression_model.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +233,7 @@
       <workItem from="1638327288843" duration="25000" />
       <workItem from="1638328554491" duration="463000" />
       <workItem from="1638542664226" duration="353000" />
-      <workItem from="1638676193502" duration="1783000" />
+      <workItem from="1638676193502" duration="2433000" />
     </task>
     <servers />
   </component>
