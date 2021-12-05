@@ -70,7 +70,7 @@ def predict(df, x):
     plt.show()
 
     # head, tail = os.path.split(input_file_path)
-    file_name = "Predict_result"
+    file_name = "Predict_result.csv"
     output_file_path = "./data/" + file_name
 
     df_output = pd.DataFrame()
